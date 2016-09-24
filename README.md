@@ -6,7 +6,7 @@
 ```
 # 偶数
 ary = [1, 2, 3, 4, 5]
-1.step(ary.size - 1, 2).map { |e| ary[e]} }
+1.step(ary.size - 1, 2).map { |e| ary[e] }
 # or
 ary.select.with_index { |e, i| i % 2 == 1 }
 
